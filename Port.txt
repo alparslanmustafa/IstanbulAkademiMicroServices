@@ -1,0 +1,10 @@
+Services
+-------------
+Catalog-->5012
+PhotoStock-->5013
+Basket-->5014
+Discount-->5015
+Order-->5016
+FakePayment-->5017
+Gateway-->5000
+Identity-->5001

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Domain\" />
+    <Folder Include="Results\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\AkademiECommerce.Shared\AkademiECommerce.Shared.csproj" />
+    <ProjectReference Include="..\..\Domain\ECommerce.Services.Order.Domain\ECommerce.Services.Order.Domain.csproj" />
+    <ProjectReference Include="..\ECommerce.Services.Order.Infrastructure\ECommerce.Services.Order.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
